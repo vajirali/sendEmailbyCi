@@ -1,9 +1,12 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
-
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
-
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+$config = array(
+				'protocol' => 'smtp', // 'mail', 'sendmail', or 'smtp'
+				'smtp_host' => 'smtp.gmail.com', 
+				'smtp_port' => 465,
+				'smtp_user' => 'youremail',  //change here with your email
+				'smtp_pass' => 'password',   //change here with password
+				'smtp_crypto' => 'ssl', //can be 'ssl' or 'tls' for example
+				'mailtype' => 'html', //plaintext 'text' mails or 'html'
+				'smtp_timeout' => '20', //in seconds
+				'charset' => 'iso-8859-1',
+				'wordwrap' => TRUE
+			);
